@@ -1,0 +1,26 @@
+# Tic-Tac-Toe Project by Raphael Ramos
+
+Included Files :
+* TicTacToe.cpp
+* Makefile
+* README
+* PlayGame
+
+Running Instructions :
+
+Change the directory of the command prompt into the 'Tic-Tac-Toe-Project', which contains all the files included. To run the game,
+simply type in the command prompt 'make run', and the game will run in your terminal.
+
+
+Notes and Assumptions :
+
+When finished with the game, PRESS ENTER to receive an additional prompt that asks if you want to play again. Press 'y' or 'n' to either execute the program
+or continue playing the game.
+
+Makefile Targets on Makefile inside /soln:
+    - make: Runs and updates the file PlayGame by running the compiler built into the makefile (g++)
+    - make run: Runs the game program inside the terminal by executing the commands './PlayGame'
+    - make clean: Removes all object files and executables and runs the commands 'rm -f PlayGame *.o'
+    - make help : Prints a list of targets and the purpose of each.
+
+
