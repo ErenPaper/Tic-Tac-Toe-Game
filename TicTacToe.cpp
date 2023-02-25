@@ -4,6 +4,16 @@ char square[10] = {'0','1','2','3','4','5','6','7','8','9'};
 
 //Function to return the game status
 
+/*
+  Description :
+    Checks to see if there is a straight X or O of 3
+
+  Arguments :
+    No arguements in this function
+ 
+  Returns :
+    No returns in this function
+*/
 int winningcheck() {
     if (square[1] == square[2] && square[2] == square[3]) {
         return 1;
@@ -47,7 +57,16 @@ int winningcheck() {
         return -1;
     }
 }
+/*
+  Description :
+    Creates the board by std::cout the design of the square game \
 
+  Arguments :
+    No arguements in this function
+ 
+  Returns :
+    No returns in this function
+*/
 void board() {
     system("cls");
     std::cout << "\n\nLet's play a Tic Tac Toe Game! \n\n";
@@ -70,6 +89,16 @@ void board() {
     std::cout << "     |     |    " << std::endl << std::endl;
 }
 
+/*
+  Description :
+    Takes in the board function and marks squares that are chosen by the player
+
+  Arguments :
+    No arguements in this function
+ 
+  Returns :
+    No returns in this function
+*/
 int PlayGame() {
     int player = 1, i, choice;
 
@@ -160,6 +189,7 @@ int main(void) {
             std::cout << "\nThank you for playing my game!" << std::endl;
         }
 
+        //Resets the board to be played again
         else {
             for (int i = 1; i < 10; i++) {
             square[i] = '0' + i;
