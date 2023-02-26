@@ -16,6 +16,9 @@ Ensure that your terminal is big enough to see the whole board.
 
 Notes and Assumptions :
 
+PRESS ENTER every turn you have to confirm your turn. If you have inputted an invalid number, > 9 or < 0, PRESS ENTER after the prompt prints 'INVALID MOVE!' to
+continue playing.
+
 When finished with the game, PRESS ENTER to receive an additional prompt that asks if you want to play again. Press 'y' or 'n' to either execute the program
 or continue playing the game.
 
@@ -24,5 +27,3 @@ Makefile Targets on Makefile inside /soln:
     - make run: Runs the game program inside the terminal by executing the commands './PlayGame'
     - make clean: Removes all object files and executables and runs the commands 'rm -f PlayGame *.o'
     - make help : Prints a list of targets and the purpose of each.
-
-
