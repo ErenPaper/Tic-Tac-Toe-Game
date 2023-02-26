@@ -81,7 +81,7 @@ void board() {
 
     std::cout << " " << square[4] << "   |  " << square[5] << "  |   " << square[6] << std::endl;
 
-    std::cout << "_ _ _|_ _ _| _ _ _" << std::endl;
+    std::cout << "_ _ _|_ _ _|_ _ _" << std::endl;
     std::cout << "     |     |      " << std::endl;
 
     std::cout << " " << square[1] << "   |  " << square[2] << "  |   " << square[3] << std::endl;

@@ -8,5 +8,5 @@ PlayGame: TicTacToe.cpp
 run: PlayGame
 	./PlayGame
 
-clean: Play_Game
+clean: PlayGame
 	rm -f PlayGame *.o

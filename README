@@ -11,6 +11,8 @@ Running Instructions :
 Change the directory of the command prompt into the 'Tic-Tac-Toe-Project', which contains all the files included. To run the game,
 simply type in the command prompt 'make run', and the game will run in your terminal.
 
+Ensure that your terminal is big enough to see the whole board.
+
 
 Notes and Assumptions :
 
